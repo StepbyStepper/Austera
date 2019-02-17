@@ -62,7 +62,7 @@ header div.call-to p {
   text-align: center;
 }
 
-.learn-more {
+.btn {
   display: block;
   width: 215px;
   height: 50px;
@@ -75,4 +75,45 @@ header div.call-to p {
   font-weight: bold;
   border-radius: 23px;
   text-decoration: none;
+}
+
+.btn:hover {
+  color: #2ebaee;
+  background: #fff;
+  box-shadow: 0 0 5px #2ebaee;
+}
+
+.our-services h2 {
+  color: #242424;
+  font-size: 48px;
+  text-align: center;
+  margin-top: 70px;
+  border-bottom: 1px solid #e7e7e7;
+  padding-bottom: 80px;
+}
+
+.services div {
+  padding-top: 60px;
+}
+
+.services div img {
+  display: block;
+  height: 78px;
+  margin-bottom: 50px;
+}
+
+.services div h3 {
+  color: #242424;
+  font-size: 24px;
+  margin-bottom: 34px;
+}
+
+.services p {
+  color: #878787;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.button {
+  padding-top: 70px;
 }
