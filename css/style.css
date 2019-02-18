@@ -83,6 +83,12 @@ header div.call-to p {
   box-shadow: 0 0 5px #2ebaee;
 }
 
+.bg {
+  background-image: url(../img/bg-main3.png);
+  background-repeat: no-repeat;
+  background-position: 30%;
+}
+
 .our-services h2 {
   color: #242424;
   font-size: 48px;
@@ -112,6 +118,7 @@ header div.call-to p {
   color: #878787;
   font-size: 14px;
   line-height: 24px;
+  max-width: 520px;
 }
 
 .button {
@@ -125,5 +132,32 @@ header div.call-to p {
 .services-2 h3 {
   color: #242424;
   font-size: 35px;
+}
 
+.services-2 a {
+  margin-left: 0;
+  margin-top: 50px;
+}
+
+.services-2 img {
+  width: 100%;
+}
+.services-2 .right-block {
+  padding-left: 100px;
+  max-width: 520px;
+}
+
+.white-style p, .white-style h3 {
+  color: #fff;
+}
+
+.btn-white {
+  background: #fff;
+  color: #2ebaee;
+}
+
+.btn-white:hover {
+  color: #fff;
+  background: #2ebaee;
+  box-shadow: 0 0 5px #fff;
 }
