@@ -87,6 +87,7 @@ header div.call-to p {
   background-image: url(../img/bg-main3.png);
   background-repeat: no-repeat;
   background-position: 30%;
+  padding-bottom: 145px;
 }
 
 .our-services h2 {
@@ -160,4 +161,31 @@ header div.call-to p {
   color: #fff;
   background: #2ebaee;
   box-shadow: 0 0 5px #fff;
+}
+
+.man {
+  max-height: 660px;
+}
+
+.man img {
+  width: 100%;services-2
+}
+
+.man h3 {
+  font-size: 72px;
+  color: #000;
+  max-width: 600px;
+  padding-left: 80px;
+}
+
+.man p {
+  color: #878787;
+  font-size: 16px;
+  max-width: 600px;
+  padding-left: 80px;
+}
+
+.btn-man {
+  margin-left: 75px;
+  margin-top: 40px;
 }
