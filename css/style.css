@@ -164,11 +164,11 @@ header div.call-to p {
 }
 
 .man {
-  max-height: 660px;
+  height: 520px;
 }
 
 .man img {
-  width: 100%;services-2
+  width: 100%;
 }
 
 .man h3 {
@@ -176,6 +176,8 @@ header div.call-to p {
   color: #000;
   max-width: 600px;
   padding-left: 80px;
+  margin-top: 65px;
+  margin-bottom: 50px;
 }
 
 .man p {
@@ -183,9 +185,58 @@ header div.call-to p {
   font-size: 16px;
   max-width: 600px;
   padding-left: 80px;
+  padding-bottom: 20px;
 }
 
 .btn-man {
   margin-left: 75px;
-  margin-top: 40px;
+
+}
+
+.tile {
+  height: 430px;
+  background:;
+}
+
+.block-1 {
+  background-image: url(../img/ico7.png);
+  min-height: 430px;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.block-2 {
+  background-image: url(../img/ico8.png);
+  min-height: 430px;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.block-3 {
+  background-image: url(../img/ico9.png);
+  min-height: 430px;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.block-4 {
+  background-image: url(../img/ico10.png);
+  min-height: 430px;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.tile h4{
+  color: #fff;
+  font-size: 48px;
+  font-weight: bold;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  margin: 0;
+  padding: 140px 65px 0 65px;
+}
+
+.tile h4:hover {
+  background: rgba(49, 155, 195, 0.6);
 }
