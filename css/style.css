@@ -275,3 +275,10 @@ header div.call-to p {
   margin-top: 15px;
   margin-bottom: 30px;
 }
+
+.footer {
+  background-image: url(../img/bg-footer.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 724px;
+}
