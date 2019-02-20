@@ -240,3 +240,38 @@ header div.call-to p {
 .tile h4:hover {
   background: rgba(49, 155, 195, 0.6);
 }
+
+.our-team {
+  height: 855px;
+}
+
+.our-team h2 {
+  font-size: 72px;
+  margin-top: 100px;
+}
+
+.our-team img {
+  display: block;
+  margin: 0 auto;
+  width: 234px;
+  height: 234px;
+  margin-top: 40px;
+}
+
+.our-team .name {
+  color: #242424;
+  font-size: 26px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 33px;
+}
+
+.our-team .awesome span {
+  display: block;
+  text-align: center;
+  font-size: center;
+  font-size: 14px;
+  color: #878787;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
