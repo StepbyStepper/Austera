@@ -282,3 +282,104 @@ header div.call-to p {
   background-repeat: no-repeat;
   height: 724px;
 }
+
+.footer .contact {
+  color: #fff;
+  font-size: 62px;
+  font-weight: bold;
+  margin-top: 115px;
+}
+
+.footer .adress {
+  font-size: 18px;
+  margin-top: 30px;
+}
+
+.footer p {
+  color: #878787;
+  font-size: 32px;
+  margin: 24px 0 0 0;
+}
+
+.footer ul {
+  list-style-type: none;
+  margin-top: 74px;
+  padding: 0;
+}
+
+.footer ul li {
+  display: inline-block;
+  width: 55px;
+  height: 55px;
+  border-radius: 27px;
+  margin-right: 37px;
+}
+
+.footer .tw {
+  background: #55acee;
+  padding: 20px 19px;
+}
+
+.footer .fb {
+  background: #3b5998;
+  padding: 20px 23px;
+}
+
+.footer .pi {
+  background: #cc2127;
+  padding: 20px 20px;
+}
+
+.footer .goo {
+  background: #dd4b39;
+  padding: 20px 20px;
+}
+
+.footer .em {
+  background: #e23047;
+  padding: 20px 18px;
+}
+
+.tw:hover, .fb:hover, .pi:hover, .goo:hover, .em:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.footer input[type="text"], .footer input[type="email"] {
+  display: block;
+  width: 550px;
+  padding: 10px 30px;
+  margin: 20px auto;
+  height: 60px;
+  background: none;
+  border-radius: 6px;
+  border: 1px solid #535353;
+  color: #fff;
+  font-size: 17px;
+}
+
+.footer input[type="text"] {
+  margin-top: 135px;
+}
+
+.footer textarea {
+  display: block;
+  width: 550px;
+  height: 200px;
+  padding: 30px;
+  margin: 20px auto;
+  background: none;
+  border-radius: 6px;
+  border: 1px solid #535353;
+  color: #fff;
+  font-size: 17px;
+  resize: none;
+}
+
+input::placeholder {
+  color: #fff;
+}
+
+.footer button {
+  border: none;
+}
